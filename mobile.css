@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Chaparral Pro', sans-serif;
+}
+
+@media (max-width: 500px) {
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero img {
+        width: 20rem;
+        height: 20rem;
+        margin: 3rem 0;
+    }
+    
+    .hero {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+
+    .introtext h2 {
+        font-size: 1.5rem;
+    }
+
+    .introtext h3 {
+        font-size: 1.5rem;
+    }
+
+    .introtext p {
+        font-size: 1.2rem;
+    }
+
+    .flexbox3{
+        flex-direction: column;
+        display: flex;
+    }
+
+    .anchor a{
+        margin-top: 2rem;
+    }
+
+    .flexbox {
+        flex-direction: column;
+    }
+
+    #first {
+        width: 20rem;
+        height: 20rem;
+    }
+
+    #second {
+        width: 20rem;
+        height: 20rem;
+        margin-top: 2rem;
+    }
+
+    #third {
+        width: 20rem;
+        height: 20rem;
+        margin-top: 2rem;
+    }
+
+    .flexbox {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .flexbox2 {
+        display: flex;
+       flex-wrap: wrap;
+    }
+
+    .anchor2 a {
+        font-size: 1rem;
+        padding: 1rem;
+
+    }
+
+    .links img{
+        width: 25rem;
+    }
+}

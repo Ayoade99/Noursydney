@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Chaparral Pro', sans-serif;                                               
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+}
+
+ li  {
+     font-size: 1.4rem;
+     padding: 3rem 3rem;
+    letter-spacing: 0.1rem;
+}
+
+#nour:hover {
+    opacity: 1;
+}
+
+li a { 
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+li a:hover{
+   color:#efb1ae; 
+}
+
+#event {
+ border-bottom: 1px solid black;
+}
+
+#event:hover {
+  border-bottom: 1px solid brown;
+}
+
+nav img {
+    width: 8rem;
+    padding-right: 20rem;
+    padding-left: 5rem;
+}
+
+nav {
+    min-height: 15vh;
+}
+
+.hero img {
+    width: 123rem;
+    height: 58rem;
+    margin-left: 7rem;
+}
+
+header {
+    min-height: 110vh;
+} 
+
+.one {
+    min-height: 100vh;
+}
+
+.introtext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 7rem;
+}
+
+.introtext h2 {
+    color: #efb1ae;
+    font-size: 2.5rem;
+    font-weight: 500;
+    padding-bottom: 3rem;
+    text-transform: uppercase;
+}
+
+.introtext h3 {
+   font-size: 2rem;
+   padding-bottom: 3rem;
+   font-weight: 500;
+}
+
+.introtext p {
+    padding-top: 0.5rem;
+    font-size: 1.7rem;
+    font-weight: 100;
+}
+
+.anchor a{
+    margin: 0 5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    color: black;
+    border: 1px solid #efb1ae;
+    padding: 1.3rem 3rem;
+}
+
+.anchor {
+    margin: 8rem 0;
+}
+
+.anchor a:hover {
+  background-color: #efb1ae;
+}
+
+.two {
+    min-height: 140vh;
+}
+
+#first {
+    width: 45rem;
+    height: 50rem;
+}
+
+#second {
+    width: 40rem;
+    height: 50rem;
+}
+
+#third {
+    width: 40rem;
+    height: 50rem;
+}
+
+.flexbox {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flexbox1 {
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+}
+
+.social a {
+    margin-top: 7rem;
+    margin-bottom: 4rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 2rem;
+    color: black;
+}
+
+.flexbox2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.anchor2 a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    padding: 0 2rem;
+    font-family: monospace;
+    border-right: 1px solid grey;
+    letter-spacing: 1px;
+}
+
+.anchor2 a:hover {
+   color: #efb1ae;
+}
+
+.two p {
+    text-align: center;
+    padding: 3rem 0;
+    font-size: 1.2rem;
+    font-family: monospace;
+}
+
+.links img {
+    width: 70rem;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

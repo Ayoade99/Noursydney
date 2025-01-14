@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Chaparral Pro', sans-serif;
+}
+
+@media (max-width: 1024px) {
+
+    nav img {
+        padding-right: 5rem;
+    }
+
+    li {
+        padding: 3rem 1.5rem;
+    }
+
+    .hero img {
+        width: 85rem;
+    }
+
+    header {
+        min-height: 50vh;
+    }
+
+   #first {
+     width: 34rem;
+   }
+
+   #second {
+    width: 29rem;
+   }
+
+   #third {
+    width: 29rem;
+   }
+
+   .one {
+    min-height: 50vh;
+   }
+
+   .two {
+    min-height: 60vh;
+   }
+}
